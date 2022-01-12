@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<title>Reflections: A Visual Experience</title>
+<style>
+
+body {
+  font-family: sans-serif;
+}
+
+.tab {
+ float: left;
+ border: 1px solid #ccc;
+ background-color: #f1f1f1;
+ width: 30%;
+ height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+ display: block;
+ background-color: inherit;
+ color: black;
+ padding: 22px 16px;
+ width: 50%;
+ border: none;
+ outline: none;
+ text-align: left;
+ cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+ background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+ background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+ float: right;
+ padding: 0px 12px;
+ border: none;
+ width: 60%;
+ height: auto;
+ display: none;
+}
+
+div.polaroid {
+  width: 45%;
+  background-color: white;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  margin: 5px;
+  float: left;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  height: 60px;
+}
+
+p {
+  font-size: 17px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Reflections: A Visual Experience</h2>
+<p>To hear and see my spoken word poems, click on the buttons inside the tabbed menu.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Emma')" id="defaultOpen">Emma</button>
+  <button class="tablinks" onclick="openCity(event, 'Greta')">Greta</button>
+  <button class="tablinks" onclick="openCity(event, 'Joyce')">Joyce</button>
+  <button class="tablinks" onclick="openCity(event, 'Sabrina')">Sabrina</button>
+</div>
+
+<div id="Emma" class="tabcontent">
+
+  <h2>Emma</h2>
+
+  <video width="720" height="480" controls>
+    <source src="emma-video.mp4" type="video/mp4">
+  </video>
+
+  <div class="polaroid">
+    <img src="emma1.jpg" alt="green tree" style="width:100%">
+    <div class="container">
+      <p>Emma's story reminded me of an orange tree</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma2.jpg" alt="shovel" style="width:100%">
+    <div class="container">
+      <p>Whose life started after a seed met the soil</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma3.jpg" alt="orange" style="width:100%">
+    <div class="container">
+      <p>A young girl appreciated what he had to offer</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma4.jpg" alt="shovel" style="width:100%">
+    <div class="container">
+      <p>For this tree was unique and extremely kind</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma5.jpg" alt="leaves and flower" style="width:100%">
+    <div class="container">
+      <p>As this tree grew, they shared many moments</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma6.jpg" alt="shovel" style="width:100%">
+    <div class="container">
+      <p>So her best memories were entwined in him</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma7.jpg" alt="leaves in shadow" style="width:100%">
+    <div class="container">
+      <p>After only four years the tree got extremely sick</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma8.jpg" alt="shovel" style="width:100%">
+    <div class="container">
+      <p>He became consumed by a disease and died</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma9.jpg" alt="flower bud" style="width:100%">
+    <div class="container">
+      <p>The girl wanted a way to remember the tree</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="emma10.jpg" alt="water drops" style="width:100%">
+    <div class="container">
+      <p>So she grew her own and named it Bernard</p>
+    </div>
+  </div>
+
+
+
+</div>
+
+<div id="Greta" class="tabcontent">
+
+<h2>Greta</h2>
+
+<video width="720" height="480" controls>
+  <source src="greta-video.mp4" type="video/mp4">
+</video>
+
+<div class="polaroid">
+  <img src="greta1.jpg" alt="building" style="width:100%">
+  <div class="container">
+    <p>Greta shared her reflections on an injury</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta2.jpg" alt="arches" style="width:100%">
+  <div class="container">
+    <p>A trauma that was like a long city detour</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta3.jpg" alt="signal" style="width:100%">
+  <div class="container">
+    <p>Her fall shattered two bones in her left leg</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta4.jpg" alt="red light" style="width:100%">
+  <div class="container">
+    <p>And Greta, the self-reliant girl, became lost</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta5.jpg" alt="sun" style="width:100%">
+  <div class="container">
+    <p>Nonetheless, she reached out for support</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta6.jpg" alt="construction sign" style="width:100%">
+  <div class="container">
+    <p>And found that there are many kind souls</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta7.jpg" alt="street" style="width:100%">
+  <div class="container">
+    <p>I'm not sure when Greta's journey will end</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="greta8.jpg" alt="building" style="width:100%">
+  <div class="container">
+    <p>But she did teach me how to be humble</p>
+  </div>
+</div>
+
+</div>
+
+
+<div id="Joyce" class="tabcontent">
+
+  <h2>Joyce</h2>
+
+  <video width="720" height="480" controls>
+    <source src="joyce-video.mp4" type="video/mp4">
+  </video>
+
+    <div class="polaroid">
+      <img src="joyce1.jpg" alt="bird" style="width:100%">
+      <div class="container">
+        <p>I asked my grandma this question and she taught me about progress</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce2.jpg" alt="tree" style="width:100%">
+      <div class="container">
+        <p>One thing I learned was that it can be a cloud cloaked in sunlight</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce3.jpg" alt="lemons" style="width:100%">
+      <div class="container">
+        <p>A beautiful sign of hope for some, while others see its impending shadow</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce4.jpg" alt="grass" style="width:100%">
+      <div class="container">
+        <p>But after nearly nine decades in rural Iowa, my grandma has seen it all</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce5.jpg" alt="bee" style="width:100%">
+      <div class="container">
+        <p>The light of new technology</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce6.jpg" alt="tree" style="width:100%">
+      <div class="container">
+        <p>And the menacing shadows of corporations that threaten her small town</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce7.jpg" alt="bee" style="width:100%">
+      <div class="container">
+        <p>She told me that her dad liked to listen to the radio every day for the news</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce8.jpg" alt="bee" style="width:100%">
+      <div class="container">
+        <p>This experience was improved by her family getting their first television</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce9.jpg" alt="bee" style="width:100%">
+      <div class="container">
+        <p>A rare device at the time, so many people came to watch it with them</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce10.jpg" alt="tree" style="width:100%">
+      <div class="container">
+        <p>She told me about growing up with large, Sears Roebuck catalogues</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce11.jpg" alt="tree" style="width:100%">
+      <div class="container">
+        <p>Yet large, corporate shopping centers have monopolized this tradition</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce12.jpg" alt="weeds" style="width:100%">
+      <div class="container">
+        <p>The school was once the pride of the town, a beacon of hope and potential></p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce13.jpg" alt="weeds" style="width:100%">
+      <div class="container">
+        <p>But a larger school was later built, so this once lively place was deserted</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce14.jpg" alt="tree" style="width:100%">
+      <div class="container">
+        <p>Our conversation eventually came to an end but it left me with a few thoughts</p>
+      </div>
+    </div>
+
+    <div class="polaroid">
+      <img src="joyce15.jpg" alt="bird in tree" style="width:100%">
+      <div class="container">
+        <p>Embrace the Sun’s warmth and don’t let corporate, silver linings deceive you</p>
+      </div>
+    </div>
+
+</div>
+
+<div id="Sabrina" class="tabcontent">
+
+<h2>Sabrina</h2>
+
+  <video width="720 "height="480" controls>
+    <source src="sabrina-video.mp4" type="video/mp4">
+  </video>
+
+  <div class="polaroid">
+    <img src="sabrina1.jpg" alt="wild grass" style="width:100%">
+    <div class="container">
+      <p>Sabrina told me about hugging a friend</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina2.jpg" alt="green plant" style="width:100%">
+    <div class="container">
+      <p>It was an experience that inspired a walk</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina3.jpg" alt="river rocks" style="width:100%">
+    <div class="container">
+      <p>For I've realized I've forgotten one thing</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina4.jpg" alt="water" style="width:100%">
+    <div class="container">
+      <p>The importance of embracing nature</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina5.jpg" alt="river sunset" style="width:100%">
+    <div class="container">
+      <p>As nature is always an invisible friend</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina6.jpg" alt="sunset" style="width:100%">
+    <div class="container">
+      <p>Whether it's a warm breeze on our skin</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina7.jpg" alt="geese" style="width:100%">
+    <div class="container">
+      <p>Or the sight of gorgeous, feathered beings</p>
+    </div>
+  </div>
+
+  <div class="polaroid">
+    <img src="sabrina8.jpg" alt="wild grass" style="width:100%">
+    <div class="container">
+      <p>Nature is like a good friend on a bad day</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
